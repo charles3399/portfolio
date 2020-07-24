@@ -480,4 +480,30 @@ h6 { font-size: 16px;}
     .right-navcontent li{
         font-size: 15px;
     }
+
+    .left-navcontent li{
+        font-size: 15px;
+        transition: 0s;
+    }
+
+    .left-navcontent li:hover{
+        font-size: 25px;
+        transition: 0s;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .right-navcontent li{
+        font-size: 9px;
+    }
+
+    .left-navcontent li{
+        font-size: 9px;
+        transition: 0s;
+    }
+
+    .left-navcontent li:hover{
+        font-size: 15px;
+        transition: 0s;
+    }
 }
