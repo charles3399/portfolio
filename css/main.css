@@ -515,7 +515,7 @@ h6 { font-size: 16px;}
     }
 
     .right-column{
-        margin-left: -85px;
+        margin-left: -100px;
     }
 
     .left-navcontent li{
@@ -531,6 +531,6 @@ h6 { font-size: 16px;}
 
 @media screen and (max-width: 400px){
     .right-column{
-        margin-left: -85px;
+        margin-left: -100px;
     }
 }
