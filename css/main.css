@@ -489,7 +489,7 @@ h6 { font-size: 16px;}
         grid-area: right-column;
         padding: 9px;
         display: grid;
-        margin-left: -55px;
+        margin-left: -65px;
         align-content: center;
         margin-bottom: 40px;
     }
@@ -514,6 +514,10 @@ h6 { font-size: 16px;}
         font-size: 9px;
     }
 
+    .right-column{
+        margin-left: -65px;
+    }
+
     .left-navcontent li{
         font-size: 9px;
         transition: 0s;
@@ -527,6 +531,6 @@ h6 { font-size: 16px;}
 
 @media screen and (max-width: 400px){
     .right-column{
-        margin-left: -95px;
+        margin-left: -65px;
     }
 }
