@@ -524,3 +524,9 @@ h6 { font-size: 16px;}
         transition: 0s;
     }
 }
+
+@media screen and (max-width: 400px){
+    .right-column{
+        margin-left: -55px;
+    }
+}
