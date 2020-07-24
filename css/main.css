@@ -477,6 +477,23 @@ h6 { font-size: 16px;}
 }
 
 @media screen and (max-width: 600px){
+
+    .left-column{
+        grid-area: left-column;
+        padding: 9px;
+        display: flex;
+        align-content: center;
+    }
+    
+    .right-column{
+        grid-area: right-column;
+        padding: 9px;
+        display: grid;
+        margin-left: -20px;
+        align-content: center;
+        margin-bottom: 40px;
+    }
+
     .right-navcontent li{
         font-size: 15px;
     }
