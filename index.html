@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
+
+    <title>Charles' Portfolio</title>
+</head>
+<body>
+    
+    <div class="navbar">
+        <ul>
+            <div class="left-navcontent" style="float: left;">
+                <li> 
+                    <span id="theme-label">
+                        Theme <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <div class="dropdown-content">
+                            <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                            <div data-mode="dark" id="dark-mode" class="theme-dot"></div> 
+                            <div data-mode="green" id="green-mode" class="theme-dot"></div> 
+                            <div data-mode="purple" id="purple-mode" class="theme-dot"></div> 
+                        </div>
+                    </span> 
+                </li>
+            </div>
+            <div class="right-navcontent" id="myRightNav">
+                <ul>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="index.html#my-projects">My Projects</a></li>
+                    <li><a href="index.html#about-me">About Me</a></li>
+                </ul>
+                
+            </div>
+            
+        </ul>
+    </div>
+
+    <br><br><br><br><br>
+
+    <section class="section1">
+        <div class="section1-wrapper">
+
+            <div class="left-column">
+                <img id="profile-pic" src="img/profile.png">
+                <h2>I'm Charles Bernaldez</h2>
+            </div>
+
+            <div class="right-column">
+                <div id="intro-margin">
+                    <div id="preview-shadow">
+                        <div class="box-window">
+                            <h3>What I'm hustling</h3>
+                            <p>I'm aspiring to become a successful individual, not only in this field but also in life</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section >
+
+    <section class="section2">
+        <a name="about-me"></a>
+        <div class="section2-wrapper">
+
+            <div class="navigation">
+                <h1>About Me</h1>
+            </div>
+
+            <div class="left-column">
+                <p>I build web apps to become better at Web Development, on my spare time I play video games and also workout.</p>
+                    
+                <p>I recently fell in love with sneakers and decided to collect as many popular sneakers as I can (Jordans, Yeezys, Air Force 1s, Ultra Boosts etc.) </p>
+
+                <div>
+                    <hr>
+                </div>
+
+                <center><h3>Links to follow me</h3>
+                <div class="social-links">
+                    <a target="__blank" href="https://github.com/charles3399"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a target="__blank" href="https://www.instagram.com/say_bernaldez/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div></center>
+            </div>
+
+            <div class="right-column">
+                <center>
+                    <h1 style="margin-top: 20px;">
+                        <i class="fas fa-code    "></i>
+                        <i class="fas fa-laptop-code    "></i>
+                        <i class="fas fa-gamepad    "></i>
+                        <i class="fas fa-dumbbell    "></i>
+                        <i class="fas fa-running    "></i>
+                    </h1>
+                
+                <h2>Skills/Expertise</h2></center>
+                <div id="skills">
+                    <ul>
+                        <li>PHP</li>
+                        <li>Laravel</li>
+                        <li>JavaScript</li>
+                        <li>Vue</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>Git/Github</li>
+                        <li>Video Editing</li>
+                        <li>Photoshop</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section >
+
+    <section class="section3">
+        <a name="my-projects"></a>
+        <div class="section3-wrapper">
+            <div class="navigation">
+                <center>
+                    <h1>My Projects</h1>
+                    <h1><i class="fas fa-pencil-ruler    "></i></h1>
+                </center>
+            </div>
+
+            <div class="section3-column">
+
+                <div>
+                    <div class="post">
+                        <img src="img/cms.png" class="thumbnail">
+                        <div class="post-content">
+                            <h5 class="post-title">Content Management System</h5>
+
+                            <a href="https://github.com/charles3399/CMS-Blog" target="__blank" style="color: black;"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+                            <p class="post-description">A simple Content Management System that is running on Laravel framework</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="post">
+                        <img src="img/vue-app.png" class="thumbnail">
+                        <div class="post-content">
+                            <h5 class="post-title">Vue.js Todo App</h5>
+
+                            <a href="https://github.com/charles3399/Simple-Vue-App" target="__blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            
+                            <a id="preview-link" href="https://charles-simple-vue-app.netlify.app/" target="__blank">Preview</a>
+                            <p class="post-description">A todo app using Vue.js and has a theme switcher!</>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section >
+
+    <section class="section4">
+        <div class="section4-wrapper">
+            <div class="navigation">
+                <center>
+                    <h1>Contact Me</h1>
+                </center>
+            </div>
+
+            <div class="section4-column">
+                <a name="contact"></a>
+                <form id="contact-form">
+    
+                    <label><i class="fa fa-envelope-square" aria-hidden="true"></i>  Gmail</label>
+                    <p id="except-link">bernaldez.corporate@gmail.com</p>
+    
+                    <label><i class="fa fa-github" aria-hidden="true"></i> Github</label>
+                    <a href="https://github.com/charles3399" target="__blank"><p>https://github.com/charles3399</p></a>
+
+                    <label><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</label>
+                    <a href="https://www.instagram.com/say_bernaldez/" target="__blank"><p>https://www.instagram.com/say_bernaldez/</p></a>
+    
+                </form>
+            </div>
+        </div>
+        
+    </section >
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>

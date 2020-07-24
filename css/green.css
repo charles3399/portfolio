@@ -1,0 +1,18 @@
+:root{
+    --mainColor: #606B56;
+    --secondaryColor: #515a48;
+
+    --navBarColor: rgb(72, 90, 57);
+
+    --hrColor: rgb(255, 255, 255);
+
+    --textColor: rgb(255, 255, 255);
+    --secondaryTextColor: rgb(212, 212, 212);
+
+    --themeDotBorder: #9fc0af;
+
+    --previewShadow: rgba(44, 44, 44, 0.808);
+    --previewBoxShadow: #487440e8;
+
+    --borderColor: rgb(231, 231, 231);
+}
