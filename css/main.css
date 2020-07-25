@@ -318,7 +318,8 @@ h6 { font-size: 16px;}
 }
 
 .post{
-    border: 3px solid var(--borderColor);
+    border: 5px solid var(--borderColor);
+    border-radius: 5px;
     margin: 15px;
 
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
