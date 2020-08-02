@@ -279,6 +279,10 @@ h6 { font-size: 16px;}
     color: rgb(247, 67, 97);
 }
 
+.social-links .fa-linkedin-square{
+    color: rgb(44, 57, 175);
+}
+
 .section2-wrapper .right-column{
     grid-area: right-column;
     margin: 15px;
