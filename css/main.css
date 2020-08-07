@@ -396,7 +396,7 @@ h6 { font-size: 16px;}
 
 #contact-form{
     display: block;
-	max-width: 600px;
+	width: 500px;
 	margin: 0 auto;
 	border: 8px solid var(--borderColor);
 	padding: 25px;
@@ -416,7 +416,7 @@ h6 { font-size: 16px;}
 
 #contact-form p, #contact-form label{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #contact-form i{
@@ -425,11 +425,11 @@ h6 { font-size: 16px;}
 
 #contact-form a, #contact-form p{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
 }
 
-#contact-form a, #contact-form p:hover{
-    border-bottom: solid var(--textColor) 2px;
+.linkedin:hover{
+    border-bottom: 2px solid var(--textColor);
     transition: 0.2s;
 }
 
@@ -477,7 +477,7 @@ h6 { font-size: 16px;}
     }
 
     #contact-form{
-        max-width: 400px;
+        width: 300px;
     }
 
     #contact-form a, #contact-form p{
