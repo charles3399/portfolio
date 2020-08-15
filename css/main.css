@@ -486,15 +486,17 @@ h6 { font-size: 16px;}
     }
 
     .show-right-navcontent{
-        display: list-item;
+        display: block;
         float: right;
         background-color: var(--navBarColor);
         max-width: 100px;
+        font-size:20px;
     }
 
     .right-navcontent #icon{
         display: block;
         cursor: pointer;
+        font-size:20px;
     }
 
     .left-column{
