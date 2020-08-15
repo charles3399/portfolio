@@ -31,3 +31,15 @@ function setTheme(mode){
 
     localStorage.setItem('theme', mode)
 }
+
+function showMenu(){
+    let showItem = document.getElementById('myRightNav')
+    
+    if (showItem.className === 'right-nav-item') {
+        showItem.classList.remove('right-nav-item')
+        showItem.classList.add('show-right-navcontent');
+    }
+    else{
+        showItem.className = 'right-nav-item';
+    }
+}

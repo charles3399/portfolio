@@ -146,12 +146,6 @@ h6 { font-size: 16px;}
     text-decoration: none;
     color: var(--textColor);
 }
-
-.right-navcontent li:hover{
-    cursor: pointer;
-    border-bottom: solid var(--textColor) 2px;
-    transition: 0.2s;
-}
 /* End of Navbar */
 
 /* Start of Section 1 */
@@ -487,6 +481,22 @@ h6 { font-size: 16px;}
 
 @media screen and (max-width: 600px){
 
+    .right-nav-item{
+        display: none;
+    }
+
+    .show-right-navcontent{
+        display: list-item;
+        float: right;
+        background-color: var(--navBarColor);
+        max-width: 100px;
+    }
+
+    .right-navcontent #icon{
+        display: block;
+        cursor: pointer;
+    }
+
     .left-column{
         grid-area: left-column;
         padding: 9px;
@@ -512,7 +522,7 @@ h6 { font-size: 16px;}
     }
 
     .left-navcontent li{
-        font-size: 15px;
+        font-size: 20px;
         transition: 0s;
     }
 
@@ -523,9 +533,6 @@ h6 { font-size: 16px;}
 }
 
 @media screen and (max-width: 500px){
-    .right-navcontent li{
-        font-size: 9px;
-    }
 
     .right-column{
         margin-left: -100px;
@@ -536,7 +543,7 @@ h6 { font-size: 16px;}
     }
 
     .left-navcontent li{
-        font-size: 9px;
+        font-size: 15px;
         transition: 0s;
     }
 
