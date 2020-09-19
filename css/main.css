@@ -301,18 +301,30 @@ h6 { font-size: 16px;}
 /* Start of Section 3 */
 .section3-wrapper{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
-    "navigation""section3-column";
-    gap: 0;
+    "navigation navigation"
+    "section3-column1 section3-column2"
+    "section3-column3 section-column3"; /* Add a column if there is a new project added */
 }
 
-.section3-column{
-    grid-area: section3-column;
+.section-column1, .section-column2, .section-column3{
     display: flex;
     padding: 30px;
     justify-content: center;
+}
+
+.section3-column1{
+    grid-area: section3-column1;
+}
+
+.section3-column2{
+    grid-area: section3-column2;
+}
+
+.section3-column3{
+    grid-area: section3-column3;
 }
 
 .post{
@@ -327,7 +339,7 @@ h6 { font-size: 16px;}
 }
 
 .post:hover{
-    margin:0 -5px;
+    margin:0 -1px;
 }
 
 .post-content{
@@ -456,7 +468,7 @@ h6 { font-size: 16px;}
 		;
     }
 
-	.section3-column{
+	.section3-wrapper{
         display: block;
         grid-template-columns: 1fr;
         justify-content: center;
