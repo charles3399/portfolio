@@ -455,10 +455,6 @@ h6 { font-size: 16px;}
 		;
     }
 
-    .left-column h2{
-        font-size: 30px;
-    }
-
 	.section2-wrapper{
 		grid-template-columns: 1fr;
         grid-template-areas: 
@@ -527,10 +523,6 @@ h6 { font-size: 16px;}
         display: flex;
         align-content: center;
     }
-
-    .left-column h2{
-        font-size: 20px;
-    }
     
     .right-column{
         grid-area: right-column;
@@ -562,11 +554,7 @@ h6 { font-size: 16px;}
         margin-left: -100px;
     }
 
-    .left-column h2{
-        font-size: 20px;
-    }
-
-    .left-navcontent li{
+    /* .left-navcontent li{
         font-size: 15px;
         transition: 0s;
     }
@@ -574,15 +562,11 @@ h6 { font-size: 16px;}
     .left-navcontent li:hover{
         font-size: 15px;
         transition: 0s;
-    }
+    } */
 }
 
 @media screen and (max-width: 400px){
     .right-column{
         margin-left: -100px;
-    }
-
-    .left-column h2{
-        font-size: 20px;
     }
 }
