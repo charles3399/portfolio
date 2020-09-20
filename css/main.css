@@ -498,6 +498,10 @@ h6 {
       "left-column"
       "right-column";
   }
+
+  .section2-wrapper .navigation h1{
+    margin-bottom: 25px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -514,6 +518,10 @@ h6 {
       "navigation"
       "left-column"
       "right-column";
+  }
+
+  .section2-wrapper .navigation h1{
+    margin-bottom: 25px;
   }
 
   .section3 {
@@ -611,6 +619,11 @@ h6 {
     font-size: 25px;
     transition: 0s;
   }
+
+  .section2-wrapper .navigation h1{
+    margin-bottom: 25px;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -627,10 +640,18 @@ h6 {
         font-size: 15px;
         transition: 0s;
     } */
+
+  .section2-wrapper .navigation h1{
+    margin-bottom: 25px;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .right-column {
     margin-left: -100px;
+  }
+
+  .section2-wrapper .navigation h1{
+    margin-bottom: 25px;
   }
 }
