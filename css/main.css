@@ -11,7 +11,7 @@
 
   --themeDotBorder: #24292e;
 
-  --previewShadow: #94acdbe8;
+  --previewShadow: #8f9091e8;
   --previewBoxShadow: rgba(206, 199, 199, 0.808);
 
   --borderColor: rgb(59, 59, 59);
@@ -216,6 +216,10 @@ h6 {
   margin-bottom: 40px;
 }
 
+.right-column-align {
+  text-align: center;
+}
+
 #preview-shadow {
   background-color: var(--previewShadow);
   max-width: 300px;
@@ -277,12 +281,13 @@ h6 {
   font-weight: 600;
 }
 
-/* .section2-wrapper .left-column h3{
-    margin-left: 100px;
-} */
+.section2-wrapper .left-column h3 {
+  margin-left: 100px;
+}
 
 .social-links {
   font-size: 30px;
+  text-align: center;
 }
 
 .social-links i {
@@ -324,7 +329,7 @@ h6 {
 /* End of Section 2 */
 
 /* Start of Section 3 */
-.section3-wrapper {
+.section3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -511,7 +516,7 @@ h6 {
       "right-column";
   }
 
-  .section3-wrapper {
+  .section3 {
     display: block;
     grid-template-columns: 1fr;
     justify-content: center;
