@@ -1,45 +1,44 @@
-let theme = localStorage.getItem('theme')
+let theme = localStorage.getItem("theme");
 
 if (theme == null) {
-    setTheme('light')
+  setTheme("light");
 } else {
-    setTheme(theme)
+  setTheme(theme);
 }
 
-let themeDot = document.getElementsByClassName('theme-dot')
+let themeDot = document.getElementsByClassName("theme-dot");
 
 for (var i = 0; i < themeDot.length; i++) {
-    themeDot[i].addEventListener('click', function(){
-        let mode = this.dataset.mode
-        setTheme(mode)
-    })
+  themeDot[i].addEventListener("click", function () {
+    let mode = this.dataset.mode;
+    setTheme(mode);
+  });
 }
 
-function setTheme(mode){
-    if(mode == 'light'){
-        document.getElementById('theme-style').href = 'css/main.css'
-    }
-    if(mode == 'dark'){
-        document.getElementById('theme-style').href = 'css/dark.css'
-    }
-    if(mode == 'green'){
-        document.getElementById('theme-style').href = 'css/green.css'
-    }
-    if(mode == 'purple'){
-        document.getElementById('theme-style').href = 'css/purple.css'
-    }
+function setTheme(mode) {
+  if (mode == "light") {
+    document.getElementById("theme-style").href = "css/main.css";
+  }
+  if (mode == "dark") {
+    document.getElementById("theme-style").href = "css/dark.css";
+  }
+  if (mode == "green") {
+    document.getElementById("theme-style").href = "css/green.css";
+  }
+  if (mode == "purple") {
+    document.getElementById("theme-style").href = "css/purple.css";
+  }
 
-    localStorage.setItem('theme', mode)
+  localStorage.setItem("theme", mode);
 }
 
-function showMenu(){
-    let showItem = document.getElementById('myRightNav')
-    
-    if (showItem.className === 'right-nav-item') {
-        showItem.classList.remove('right-nav-item')
-        showItem.classList.add('show-right-navcontent');
-    }
-    else{
-        showItem.className = 'right-nav-item';
-    }
+function showMenu() {
+  let showItem = document.getElementById("myRightNav");
+
+  if (showItem.className === "right-nav-item") {
+    showItem.classList.remove("right-nav-item");
+    showItem.classList.add("show-right-navcontent");
+  } else {
+    showItem.className = "right-nav-item";
+  }
 }
